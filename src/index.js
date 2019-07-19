@@ -7,7 +7,7 @@ import App from './App';
 import allReducers from './reducers/index';
 
 import 'semantic-ui-css/semantic.min.css';
-import './index.css';
+import './index.scss';
 
 
 // creating a store that is gonna be available across the project
