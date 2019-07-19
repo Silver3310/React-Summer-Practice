@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import ShopList from '../../containers/ShopList';
 
+
 class Home extends Component {
 
     render() {
