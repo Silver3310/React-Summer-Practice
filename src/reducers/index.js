@@ -1,11 +1,11 @@
 import {combineReducers} from 'redux';
 
-import ShopReducer from './shops';
+import CafeteriaReducer from './cafeterias';
 
 
 // combine all reducers into one object
 const allReducers = combineReducers({
-    shops: ShopReducer
+    cafeterias: CafeteriaReducer
 });
 
 export default allReducers;

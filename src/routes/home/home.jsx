@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 
-import ShopList from '../../containers/ShopList';
+import { Link } from 'react-router-dom';
 
 
 class Home extends Component {
-
     render() {
         return (
-            <React.Fragment>
-                <h1>Home</h1>
-                <ShopList />
-            </React.Fragment>
+            <div>
+                Home Page
+                <br/>
+                <Link to="/owner/places">Посмотреть свои заведения</Link>
+            </div>
         );
     }
 }

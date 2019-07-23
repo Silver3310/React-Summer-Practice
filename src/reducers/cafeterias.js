@@ -2,22 +2,22 @@ export default function() {
     return [
         {
             id: 1,
-            name: "fireworks for everyone",
+            name: "pizzas",
             rating: 6
         },
         {
             id: 2,
-            name: "food for everyone",
+            name: "coffee",
             rating: 3
         },
         {
             id: 3,
-            name: "games for everyone",
+            name: "shawarma",
             rating: 5
         },
         {
             id: 4,
-            name: "special for you",
+            name: "Würste",
             rating: 9
         },
     ]
