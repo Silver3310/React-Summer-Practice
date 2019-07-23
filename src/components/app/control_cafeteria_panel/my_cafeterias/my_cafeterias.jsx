@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import CafeteriaListContainer from '../../cafeteria-list';
+import CafeteriaListContainer from '../../cafeteria_list';
 
 
 class MyCafeterias extends Component {
