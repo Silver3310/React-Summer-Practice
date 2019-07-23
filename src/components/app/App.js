@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Button } from 'semantic-ui-react';
 
-import About from './components/pages/About';
-import Home from './components/pages/Home';
-import Header from './components/layout/Header';
+import About from '../../routes/about/About';
+import Home from '../../routes/home/Home';
+import Header from './header/Header';
 
 
 class App extends React.Component {
