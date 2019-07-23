@@ -12,7 +12,7 @@ function Header() {
     return (
         <header>
             <Link to="/">Заголовок</Link>
-            <div className="rightElements">
+            <div className="right-elements">
                 <span>Вы вошли как Ivan |</span>
                 <Link to="#" onClick={logout()}>Выйти</Link>
             </div>

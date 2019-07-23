@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import {Link} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import './cafeteria_list.scss';
 
@@ -11,7 +11,7 @@ class CafeteriaListContainer extends Component {
     createListItems() {
         return this.props.cafeterias.map((cafeteria) => {
             return (
-                <Link to="#" warning key={cafeteria.id}>{cafeteria.name}</Link>
+                <NavLink to="#" className="vertical-menu__link" warning key={cafeteria.id}>{cafeteria.name}</NavLink>
             )
         })
     }
