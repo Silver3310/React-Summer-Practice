@@ -1,8 +1,6 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 
-// it will automatically find an index.js because we
-// specified only a folder
 import rootReducer from './reducers';
 
 

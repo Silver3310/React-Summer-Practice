@@ -20,7 +20,7 @@ class CafeteriaListContainer extends Component {
     createListItems() {
         return this.props.cafeterias.map((cafeteria) => {
             return (
-                <NavLink to="#" className="vertical-menu__link" warning key={cafeteria.id}>{cafeteria.name}</NavLink>
+                <NavLink to="#" className="vertical-menu__link" key={cafeteria.id}>{cafeteria.name}</NavLink>
             )
         })
     }
