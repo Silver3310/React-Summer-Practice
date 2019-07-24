@@ -1,0 +1,1 @@
+export { default } from './cafeteria_list_container';
