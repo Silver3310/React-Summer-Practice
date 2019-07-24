@@ -13,17 +13,17 @@ class App extends React.Component {
   render() {
 
     return (
-        <Router>
-          <div className="App">
-            <div className="container">
-              <Header />
-              <Route exact path="/" component={Home}/>
-              <Route path="/owner/places" component={ControlCafeteriaPanel}/>
-                {/* Maybe it will be useful in the future */}
-              <Route path="/about" component={About} />
-            </div>
-          </div>
-        </Router>
+            <Router>
+              <div className="App">
+                <div className="container">
+                  <Header />
+                  <Route exact path="/" component={Home}/>
+                  <Route path="/owner/places" component={ControlCafeteriaPanel}/>
+                    {/* Maybe it will be useful in the future */}
+                  <Route path="/about" component={About} />
+                </div>
+              </div>
+            </Router>
     );
   }
 }
