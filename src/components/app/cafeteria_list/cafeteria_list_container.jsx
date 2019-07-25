@@ -11,12 +11,10 @@ import './cafeteria_list.scss';
 
 class CafeteriaListContainer extends Component {
 
-    // as soon as the component mounts
     componentWillMount() {
         this.props.fetchAllCafeterias();
     }
 
-    // iterate through all shops to show only the name
     createListItems() {
         return this.props.cafeterias.map((cafeteria) => {
             return (

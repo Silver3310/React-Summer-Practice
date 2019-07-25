@@ -4,10 +4,8 @@ import thunk from 'redux-thunk';
 import rootReducer from './reducers';
 
 
-// createStore(reducer, [preloadedState], [enhancer])
 const initialState = {};
 
-// to use dispatch
 const middleware = [thunk];
 
 const store = createStore(
@@ -15,7 +13,6 @@ const store = createStore(
     initialState,
     compose(
         applyMiddleware(...middleware),
-        // chrome extension
         window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
     )
 );

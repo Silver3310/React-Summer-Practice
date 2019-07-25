@@ -10,7 +10,6 @@ import './index.scss';
 import store from './store';
 
 
-// make the store available for every single component
 ReactDOM.render(
     <Provider store={store}>
         <App />

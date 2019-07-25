@@ -19,7 +19,6 @@ class App extends React.Component {
                   <Header />
                   <Route exact path="/" component={Home}/>
                   <Route path="/owner/places" component={ControlCafeteriaPanel}/>
-                    {/* Maybe it will be useful in the future */}
                   <Route path="/about" component={About} />
                 </div>
               </div>
