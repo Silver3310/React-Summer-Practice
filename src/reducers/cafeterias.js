@@ -1,24 +1,19 @@
-export default function() {
-    return [
-        {
-            id: 1,
-            name: "pizzas",
-            rating: 6
-        },
-        {
-            id: 2,
-            name: "coffee",
-            rating: 3
-        },
-        {
-            id: 3,
-            name: "shawarma",
-            rating: 5
-        },
-        {
-            id: 4,
-            name: "Würste",
-            rating: 9
-        },
-    ]
+import { FETCH_ALL_CAFETERIAS } from '../actions/types';
+
+
+const initialState = {
+    items: []
+};
+
+
+export default function(state = initialState, action) {
+    switch (action.type) {
+        case FETCH_ALL_CAFETERIAS:
+            return {
+                ...state,
+                items: action.payload
+            };
+        default:
+            return state;
+    }
 }
